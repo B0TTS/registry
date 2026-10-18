@@ -246,6 +246,9 @@ def run_auth_check(
                         "readTextFile": True,
                         "writeTextFile": True,
                     },
+                    "auth": {
+                        "terminal": True,
+                    },
                     "_meta": {
                         "terminal_output": True,
                         "terminal-auth": True,

@@ -247,6 +247,9 @@ def build_initialize_params() -> dict[str, Any]:
                 "readTextFile": True,
                 "writeTextFile": True,
             },
+            "auth": {
+                "terminal": True,
+            },
             "_meta": {
                 "terminal_output": True,
                 "terminal-auth": True,

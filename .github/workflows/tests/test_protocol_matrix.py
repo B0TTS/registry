@@ -77,6 +77,7 @@ def test_build_initialize_params_matches_auth_probe_capabilities():
 
     assert params["protocolVersion"] == 1
     assert params["clientCapabilities"]["terminal"] is True
+    assert params["clientCapabilities"]["auth"] == {"terminal": True}
     assert params["clientCapabilities"]["_meta"] == {
         "terminal_output": True,
         "terminal-auth": True,
